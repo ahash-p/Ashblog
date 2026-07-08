@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/blogs",
+  baseURL: "https://ashblog-backend.onrender.com/api/blogs",
 });
 
 export default API;
